@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--inputs);
+
+  border-bottom: 1px solid var(--badges);
+}
+.container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 450px;
+  box-sizing: border-box;
+}

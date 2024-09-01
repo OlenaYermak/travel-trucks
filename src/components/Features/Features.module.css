@@ -1,0 +1,19 @@
+.featuresList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.featuresListItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.camperFeatures {
+  width: 100%;
+}

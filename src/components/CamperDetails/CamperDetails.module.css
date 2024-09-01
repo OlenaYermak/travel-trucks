@@ -1,0 +1,25 @@
+.ratingWrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.iconStars {
+  fill: var(--rating);
+}
+
+.ratingText {
+  color: var(--main);
+  text-decoration: underline;
+}
+
+.locationWrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.detailsWrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.hero {
+  background-color: var(--main);
+  padding-top: 260px;
+  padding-bottom: 260px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/src/images/homePage/Picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: url("/src/images/homePage/Picture@2x.jpg");
+  }
+}
+
+.heroTitle {
+  max-width: 571px;
+  color: var(--inputs);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.heroText {
+  max-width: 550px;
+  color: var(--inputs);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,20 @@
+.buttonLink {
+  display: flex;
+  background-color: var(--button);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  border-radius: 200px;
+  width: 173px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--cubic);
+}
+
+.buttonLink:hover,
+.buttonLink:focus {
+  background-color: var(--button-hover);
+}

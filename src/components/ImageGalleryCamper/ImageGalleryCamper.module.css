@@ -1,0 +1,79 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.image {
+  cursor: pointer;
+  transition: transform 0.2s;
+  object-fit: cover;
+}
+.thumbnail:hover {
+  transform: scale(1.2);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 998;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(108, 113, 123, 0.9);
+  z-index: 997;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 36px;
+  cursor: pointer;
+  color: var(--white);
+  z-index: 999;
+}
+
+.fullImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 0 50px;
+}
+.modalContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton {
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--button);
+  border: none;
+  color: var(--white);
+  font-size: 50px;
+  cursor: pointer;
+
+  border-radius: 30%;
+  z-index: 1001;
+}

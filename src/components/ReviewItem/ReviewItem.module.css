@@ -1,0 +1,38 @@
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: var(--badges);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initial {
+  color: var(--button);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.star {
+  fill: var(--badges);
+}
+.iconStars {
+  fill: var(--rating);
+}
+
+.reviewerName {
+  font-weight: 500;
+  color: var(--main);
+}
+
+.circleReviewContentWrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.text {
+  color: var(--text);
+}

@@ -1,0 +1,48 @@
+.cardContainer {
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+  padding: 24px;
+  width: 888px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.namePriceWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.priceIconWrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.textDescription {
+  width: 493px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favorite {
+  fill: var(--button);
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 27px;
+  height: 25px;
+}

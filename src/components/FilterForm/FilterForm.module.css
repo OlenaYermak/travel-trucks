@@ -1,0 +1,82 @@
+.locationWrapper {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.iconLocation {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  fill: var(--gray);
+}
+
+.label {
+  display: block;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+.input {
+  height: 56px;
+  width: 360px;
+  border: none;
+  background-color: var(--inputs);
+  border-radius: 12px;
+  padding-left: 46px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main);
+  font-family: "Inter", sans-serif;
+  position: relative;
+  box-sizing: border-box;
+}
+.input:focus {
+  outline: transparent;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.labelType {
+  display: block;
+  margin-bottom: 48px;
+}
+
+.vehicleTypeWrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.equipmentTypeWrapper {
+  display: flex;
+  gap: 12px;
+  width: 360px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filtersText {
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.suggestionItem {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50px;
+}

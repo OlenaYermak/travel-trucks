@@ -1,0 +1,18 @@
+.wrapper {
+  width: 524px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.item {
+  display: inline-flex;
+  background-color: var(--badges);
+  align-items: center;
+  border-radius: 100px;
+  gap: 8px;
+  padding: 12px 18px;
+}
+
+.icon {
+  stroke: var(--main);
+}

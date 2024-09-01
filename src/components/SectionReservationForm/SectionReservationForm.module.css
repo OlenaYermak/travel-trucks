@@ -1,0 +1,14 @@
+.sectionReservForm {
+  border-radius: 10px;
+  padding: 44px 57px;
+  width: 641px;
+  border: 1px solid var(--gray-light);
+  box-sizing: border-box;
+}
+
+.wpapperText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}

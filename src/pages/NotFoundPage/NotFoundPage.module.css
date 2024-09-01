@@ -1,0 +1,12 @@
+.notFoundPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--badges);
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+}

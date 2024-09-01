@@ -1,0 +1,71 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.errorMsg {
+  color: var(--button);
+  font-size: 14px;
+  position: absolute;
+  bottom: -20px;
+}
+
+.reservedFormFieldWrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  height: 60px;
+  border: none;
+  background-color: var(--inputs);
+  border-radius: 12px;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main);
+  font-family: "Inter", sans-serif;
+}
+.input:focus {
+  outline: transparent;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.datePicker {
+  width: 97%;
+}
+
+.textarea {
+  background-color: var(--inputs);
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  height: 118px;
+  padding: 18px 18px;
+  resize: none;
+  margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.textarea:focus {
+  outline: transparent;
+}
+
+.textarea::placeholder {
+  color: var(--gray);
+}
+
+.toast {
+  background-color: var(--button);
+  color: var(--white);
+  width: 300px;
+  height: 60px;
+}
